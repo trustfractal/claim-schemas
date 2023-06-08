@@ -4,11 +4,11 @@
       "@version": 1.1,
       "@protected": true,
       "residency": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#residency",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#residency",
         "@context": {
           "@version": 1.1,
           "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "residential_address": {
             "@id": "residential_address",
@@ -25,11 +25,11 @@
         }
       },
       "sow": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#sow",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#sow",
         "@context": {
           "@version": 1.1,
           "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "sow_estimated_net_worth_currency": {
             "@id": "sow_estimated_net_worth_currency",
@@ -42,11 +42,11 @@
         }
       },
       "institution": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#institution",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#institution",
         "@context": {
           "@version": 1.1,
           "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "unique_identification_number": {
             "@id": "unique_identification_number",
@@ -79,11 +79,11 @@
         }
       },
       "ssn": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#ssn",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#ssn",
         "@context": {
           "@version": 1.1,
           "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "social_security_number": {
             "@id": "social_security_number",
@@ -92,11 +92,11 @@
         }
       },
       "identification": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#identification",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#identification",
         "@context": {
           "@version": 1.1,
           "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "date_of_birth": {
             "@id": "date_of_birth",
