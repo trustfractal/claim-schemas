@@ -3,6 +3,27 @@
     {
       "@version": 1.1,
       "@protected": true,
+      "residency": {
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#residency",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "residential_address": {
+            "@id": "residential_address",
+            "@type": "xsd:string"
+          },
+          "residential_address_country": {
+            "@id": "residential_address_country",
+            "@type": "aux:ISO_3166-1_alpha-2"
+          },
+          "residential_address_proof_date_of_expiry": {
+            "@id": "residential_address_proof_date_of_expiry",
+            "@type": "xsd:date"
+          }
+        }
+      },
       "identification": {
         "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#identification",
         "@context": {
