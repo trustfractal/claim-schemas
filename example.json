@@ -1,0 +1,11 @@
+{
+  "@context": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld"
+  , "@type": ["identification", "residency", "ssn", "sow"]
+  , "residential_address": "2022-01-01"
+  , "residential_address_country": "AX"
+  , "date_of_birth": "2022-01-01"
+  , "identification_document_country": "AX"
+  , "social_security_number": "my cool SSN"
+  , "sow_estimated_net_worth_currency": "my cool sow number"
+  , "verify me at": "https://json-ld.org/playground/"
+}
