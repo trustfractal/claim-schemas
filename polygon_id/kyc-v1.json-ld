@@ -24,6 +24,23 @@
           }
         }
       },
+      "sow": {
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#sow",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "sow_estimated_net_worth_currency": {
+            "@id": "sow_estimated_net_worth_currency",
+            "@type": "xsd:string"
+          },
+          "sow_estimated_net_worth_value": {
+            "@id": "sow_estimated_net_worth_value",
+            "@type": "xsd:string"
+          }
+        }
+      },
       "ssn": {
         "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#ssn",
         "@context": {
