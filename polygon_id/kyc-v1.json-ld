@@ -24,6 +24,19 @@
           }
         }
       },
+      "ssn": {
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#ssn",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "social_security_number": {
+            "@id": "social_security_number",
+            "@type": "xsd:string"
+          }
+        }
+      },
       "identification": {
         "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#identification",
         "@context": {
