@@ -1,0 +1,121 @@
+{
+  "@version": 1.1,
+  "@protected": true,
+  "aux": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/aux.xml#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
+  "identification": {
+    "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#identification",
+    "@context": {
+      "date_of_birth": {
+        "@id": "date_of_birth",
+        "@type": "xsd:date"
+      },
+      "full_name": {
+        "@id": "full_name",
+        "@type": "xsd:string"
+      },
+      "identification_document_country": {
+        "@id": "identification_document_country",
+        "@type": "aux:ISO_3166-1_alpha-2"
+      },
+      "identification_document_number": {
+        "@id": "identification_document_number",
+        "@type": "xsd:string"
+      },
+      "identification_document_type": {
+        "@id": "identification_document_type",
+        "@type": "aux:identification_document_type"
+      },
+      "place_of_birth": {
+        "@id": "place_of_birth",
+        "@type": "xsd:string"
+      },
+      "identification_document_date_of_issue": {
+        "@id": "identification_document_date_of_issue",
+        "@type": "xsd:date"
+      },
+      "identification_document_date_of_expiry": {
+        "@id": "identification_document_date_of_expiry",
+        "@type": "xsd:date"
+      },
+      "@protected": true
+    }
+  },
+  "residency": {
+    "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#residency",
+    "@context": {
+      "residential_address": {
+        "@id": "residential_address",
+        "@type": "xsd:string"
+      },
+      "residential_address_country": {
+        "@id": "residential_address_country",
+        "@type": "aux:ISO_3166-1_alpha-2"
+      },
+      "residential_address_proof_date_of_expiry": {
+        "@id": "residential_address_proof_date_of_expiry",
+        "@type": "xsd:date"
+      },
+      "@protected": true
+    }
+  },
+  "ssn": {
+    "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#ssn",
+    "@context": {
+      "social_security_number": {
+        "@id": "social_security_number",
+        "@type": "xsd:string"
+      },
+      "@protected": true
+    }
+  },
+  "sow": {
+    "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#sow",
+    "@context": {
+      "sow_estimated_net_worth_currency": {
+        "@id": "sow_estimated_net_worth_currency",
+        "@type": "xsd:string"
+      },
+      "sow_estimated_net_worth_value": {
+        "@id": "sow_estimated_net_worth_value",
+        "@type": "xsd:string"
+      },
+      "@protected": true
+    }
+  },
+  "institution": {
+    "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#institution",
+    "@context": {
+      "unique_identification_number": {
+        "@id": "unique_identification_number",
+        "@type": "xsd:string"
+      },
+      "legal_form": {
+        "@id": "legal_form",
+        "@type": "xsd:string"
+      },
+      "jurisdiction": {
+        "@id": "jurisdiction",
+        "@type": "xsd:string"
+      },
+      "company_seat": {
+        "@id": "company_seat",
+        "@type": "xsd:string"
+      },
+      "company_name": {
+        "@id": "company_name",
+        "@type": "xsd:string"
+      },
+      "commercial_register": {
+        "@id": "commercial_register",
+        "@type": "xsd:string"
+      },
+      "beneficial_owner": {
+        "@id": "beneficial_owner",
+        "@type": "xsd:string"
+      },
+      "@protected": true
+    }
+  }
+}
