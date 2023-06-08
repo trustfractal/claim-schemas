@@ -3,15 +3,11 @@
     {
       "@version": 1.1,
       "@protected": true,
-      "id": "@id",
-      "type": "@type",
       "identification": {
         "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/main/polygon_id/kyc-v1.json-ld#identification",
         "@context": {
           "@version": 1.1,
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
           "@vocab": "https://github.com/trustfractal/claim-schemas/main/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "date_of_birth": {
