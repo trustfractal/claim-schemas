@@ -268,4 +268,20 @@
             <xs:enumeration value="ZW" /> <!-- Zimbabwe -->
         </xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="identification_document_type" name="identification_document_type">
+        <xs:annotation>
+            <xs:documentation>
+                Identification document type.
+
+                See https://docs.developer.fractal.id/user-integration/user-information-retrieval#identification-related-fields
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="national_id" />
+            <xs:enumeration value="passport" />
+            <xs:enumeration value="drivers_license" />
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
