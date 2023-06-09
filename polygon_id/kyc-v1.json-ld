@@ -68,16 +68,7 @@
           "phones": {
             "@id": "phone",
             "@container": "@set"
-          }
-        }
-      },
-      "residency": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#residency",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          },
           "residential_address": {
             "@id": "residential_address",
             "@type": "xsd:string"
@@ -89,16 +80,7 @@
           "residential_address_proof_date_of_expiry": {
             "@id": "residential_address_proof_date_of_expiry",
             "@type": "xsd:date"
-          }
-        }
-      },
-      "sow": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#sow",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          },
           "sow_estimated_net_worth_currency": {
             "@id": "sow_estimated_net_worth_currency",
             "@type": "xsd:string"
@@ -106,16 +88,7 @@
           "sow_estimated_net_worth_value": {
             "@id": "sow_estimated_net_worth_value",
             "@type": "xsd:string"
-          }
-        }
-      },
-      "institution": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#institution",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          },
           "unique_identification_number": {
             "@id": "unique_identification_number",
             "@type": "xsd:string"
@@ -143,29 +116,11 @@
           "beneficial_owner": {
             "@id": "beneficial_owner",
             "@type": "xsd:string"
-          }
-        }
-      },
-      "ssn": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#ssn",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          },
           "social_security_number": {
             "@id": "social_security_number",
             "@type": "xsd:string"
-          }
-        }
-      },
-      "identification": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#identification",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          },
           "date_of_birth": {
             "@id": "date_of_birth",
             "@type": "xsd:date"

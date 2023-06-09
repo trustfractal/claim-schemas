@@ -1,6 +1,6 @@
 {
  "@context": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld"
-  , "@type": ["fractal-id-user", "identification", "residency", "ssn", "sow"]
+  , "@type": "fractal-id-user"
   , "residential_address": "2022-01-01"
   , "residential_address_country": "AX"
   , "date_of_birth": "2022-01-01"
