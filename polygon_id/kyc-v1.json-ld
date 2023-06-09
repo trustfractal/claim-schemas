@@ -3,6 +3,39 @@
     {
       "@version": 1.1,
       "@protected": true,
+      "wallet": {
+        "@id": "#wallet",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "address": {
+            "@id": "wallet__address",
+            "@type": "xsd:string"
+          },
+          "currency": {
+            "@id": "wallets__currency",
+            "@type": "aux:ISO_3166-1_alpha-2"
+          },
+          "verified": {
+            "@id": "wallets__verified",
+            "@type": "xsd:date"
+          }
+        }
+      },
+      "fractal-id-user": {
+        "@id": "#fractal-id-user",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "wallet": "wallet",
+          "email": "email",
+          "phone": "phone"
+        }
+      },
       "residency": {
         "@id": "#residency",
         "@context": {
