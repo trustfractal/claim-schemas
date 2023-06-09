@@ -1,0 +1,210 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "$metadata": {
+    "uris": {
+      "jsonLdContext": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.schema.json"
+    }
+  },
+  "required": [
+    "@context",
+    "id",
+    "type",
+    "issuanceDate",
+    "credentialSubject",
+    "credentialSchema",
+    "issuer"
+  ],
+  "properties": {
+    "@context": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": [
+        "string",
+        "array"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "issuer": {
+      "type": [
+        "string",
+        "object"
+      ],
+      "format": "uri",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "issuanceDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "credentialSchema": {
+      "type": "object",
+      "required": [
+        "id",
+        "type"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "subjectPosition": {
+      "type": "string",
+      "enum": [
+        "none",
+        "index",
+        "value"
+      ]
+    },
+    "merklizationRootPosition": {
+      "type": "string",
+      "enum": [
+        "none",
+        "index",
+        "value"
+      ]
+    },
+    "revNonce": {
+      "type": "integer"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "updatable": {
+      "type": "boolean"
+    },
+    "credentialSubject": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "wallets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string" },
+              "address": { "type": "string" },
+              "currency": { "type": "string" },
+              "verified": { "type": "boolean" }
+            }
+          }
+        },
+        "emails": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string" },
+              "address": { "type": "string" }
+            }
+          }
+        },
+        "phones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string" },
+              "number": { "type": "string" }
+            }
+          }
+        },
+        "residential_address": {
+          "type": "string"
+        },
+        "residential_address_country": {
+          "@type": "string"
+        },
+        "residential_address_proof_date_of_expiry": {
+          "type": "string",
+          "format": "date"
+        },
+        "sow_estimated_net_worth_currency": {
+          "type": "string"
+        },
+        "sow_estimated_net_worth_value": {
+          "type": "string"
+        },
+        "unique_identification_number": {
+          "type": "string"
+        },
+        "legal_form": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "string"
+        },
+        "company_seat": {
+          "type": "string"
+        },
+        "company_name": {
+          "type": "string"
+        },
+        "commercial_register": {
+          "type": "string"
+        },
+        "beneficial_owner": {
+          "type": "string"
+        },
+        "social_security_number": {
+          "type": "string"
+        },
+        "date_of_birth": {
+          "type": "string",
+          "format": "date"
+        },
+        "full_name": {
+          "type": "string"
+        },
+        "identification_document_country": {
+          "@type": "string"
+        },
+        "identification_document_number": {
+          "type": "string"
+        },
+        "identification_document_type": {
+          "@type": "string"
+        },
+        "place_of_birth": {
+          "type": "string"
+        },
+        "identification_document_date_of_issue": {
+          "type": "string",
+          "format": "date"
+        },
+        "identification_document_date_of_expiry": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}
