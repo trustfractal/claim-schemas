@@ -57,9 +57,18 @@
           "@protected": true,
           "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "wallet": {"@type": "@id"},
-          "email": {"@type": "@id"},
-          "phone": {"@type": "@id"}
+          "wallets": {
+            "@id": "wallet",
+            "@container": "@set"
+          },
+          "emails": {
+            "@id": "email",
+            "@container": "@set"
+          },
+          "phones": {
+            "@id": "phone",
+            "@container": "@set"
+          }
         }
       },
       "residency": {
