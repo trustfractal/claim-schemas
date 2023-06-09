@@ -4,7 +4,7 @@
       "@version": 1.1,
       "@protected": true,
       "residency": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#residency",
+        "@id": "#residency",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -25,7 +25,7 @@
         }
       },
       "sow": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#sow",
+        "@id": "#sow",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -42,7 +42,7 @@
         }
       },
       "institution": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#institution",
+        "@id": "#institution",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -79,7 +79,7 @@
         }
       },
       "ssn": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#ssn",
+        "@id": "#ssn",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -92,7 +92,7 @@
         }
       },
       "identification": {
-        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#identification",
+        "@id": "#identification",
         "@context": {
           "@version": 1.1,
           "@protected": true,
