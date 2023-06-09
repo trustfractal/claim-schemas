@@ -4,7 +4,7 @@
       "@version": 1.1,
       "@protected": true,
       "wallet": {
-        "@id": "#wallet",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#wallet",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -25,7 +25,7 @@
         }
       },
       "fractal-id-user": {
-        "@id": "#fractal-id-user",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#fractal-id-user",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -37,7 +37,7 @@
         }
       },
       "residency": {
-        "@id": "#residency",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#residency",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -58,7 +58,7 @@
         }
       },
       "sow": {
-        "@id": "#sow",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#sow",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -75,7 +75,7 @@
         }
       },
       "institution": {
-        "@id": "#institution",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#institution",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -112,7 +112,7 @@
         }
       },
       "ssn": {
-        "@id": "#ssn",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#ssn",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -125,7 +125,7 @@
         }
       },
       "identification": {
-        "@id": "#identification",
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#identification",
         "@context": {
           "@version": 1.1,
           "@protected": true,
