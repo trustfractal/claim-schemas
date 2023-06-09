@@ -24,6 +24,32 @@
           }
         }
       },
+      "email": {
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#email",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "address": {
+            "@id": "email__address",
+            "@type": "xsd:string"
+          }
+        }
+      },
+      "phone": {
+        "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#phone",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "number": {
+            "@id": "phone__number",
+            "@type": "xsd:string"
+          }
+        }
+      },
       "fractal-id-user": {
         "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld#fractal-id-user",
         "@context": {
@@ -31,9 +57,9 @@
           "@protected": true,
           "@vocab": "https://github.com/trustfractal/claim-schemas/master/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "wallet": "wallet",
-          "email": "email",
-          "phone": "phone"
+          "wallet": {"@type": "@id"},
+          "email": {"@type": "@id"},
+          "phone": {"@type": "@id"}
         }
       },
       "residency": {
