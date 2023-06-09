@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/trustfractal/claim-schemas/b6c7c300f47bbedd149ea54fc46eaa0fb67dc5ab/polygon_id/kyc-v1.json-ld"
+ "@context": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld"
   , "@type": ["fractal-id-user", "identification", "residency", "ssn", "sow"]
   , "residential_address": "2022-01-01"
   , "residential_address_country": "AX"
@@ -17,5 +17,4 @@
   , "emails": [
      {"@type": "email", "address": "a@b.c"}
   ]
-  , "verify me at": "https://json-ld.org/playground/"
 }
