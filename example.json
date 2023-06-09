@@ -1,11 +1,21 @@
 {
-  "@context": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/polygon_id/kyc-v1.json-ld"
-  , "@type": ["identification", "residency", "ssn", "sow"]
+  "@context": "https://raw.githubusercontent.com/trustfractal/claim-schemas/b6c7c300f47bbedd149ea54fc46eaa0fb67dc5ab/polygon_id/kyc-v1.json-ld"
+  , "@type": ["fractal-id-user", "identification", "residency", "ssn", "sow"]
   , "residential_address": "2022-01-01"
   , "residential_address_country": "AX"
   , "date_of_birth": "2022-01-01"
   , "identification_document_country": "AX"
   , "social_security_number": "my cool SSN"
   , "sow_estimated_net_worth_currency": "my cool sow number"
+  , "wallets": [
+     {"@type": "wallet", "address": "0x00"}
+    ,{"@type": "wallet", "address": "0x01"}
+  ]
+  , "phones": [
+     {"@type": "phone", "number": "+123"}
+  ]
+  , "emails": [
+     {"@type": "email", "address": "a@b.c"}
+  ]
   , "verify me at": "https://json-ld.org/playground/"
 }
