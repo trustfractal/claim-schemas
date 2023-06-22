@@ -137,6 +137,9 @@
             }
           }
         },
+        "scoped_user_id": {
+          "type": "string"
+        },
         "residential_address": {
           "type": "string"
         },

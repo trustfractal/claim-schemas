@@ -73,6 +73,10 @@
             "@id": "residential_address",
             "@type": "xsd:string"
           },
+          "scoped_user_id": {
+            "@id": "scoped_user_id",
+            "@type": "xsd:string"
+          },
           "residential_address_country": {
             "@id": "residential_address_country",
             "@type": "aux:ISO_3166-1_alpha-2"
