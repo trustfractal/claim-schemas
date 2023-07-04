@@ -144,7 +144,7 @@
           "type": "string"
         },
         "residential_address_country": {
-          "@type": "string"
+          "type": "string"
         },
         "residential_address_proof_date_of_expiry": {
           "type": "string",
@@ -188,13 +188,13 @@
           "type": "string"
         },
         "identification_document_country": {
-          "@type": "string"
+          "type": "string"
         },
         "identification_document_number": {
           "type": "string"
         },
         "identification_document_type": {
-          "@type": "string"
+          "type": "string"
         },
         "place_of_birth": {
           "type": "string"
