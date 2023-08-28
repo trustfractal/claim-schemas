@@ -19,7 +19,7 @@
     "identification_document_date_of_issue": "xsd:date",
     "identification_document_date_of_expiry": "xsd:date",
     "wallets": {
-      "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/verifiable_credential/fractal_id.json-ld#wallets",
+      "@id": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/fractal_id.json-ld#wallets",
       "@context": {
         "@protected": true,
         "address": "xsd:string",
