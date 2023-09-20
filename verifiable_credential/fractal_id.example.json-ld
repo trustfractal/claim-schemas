@@ -1,0 +1,45 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/verifiable_credential/fractal_id.json-ld",
+  ],
+  "id": "uuid:...",
+  "type": ["VerifiableCredential"],
+  "issuer": "FractalID",
+  "issuanceDate": "...iso8601...",
+  "credentialSubject": {
+    "id": "uuid:...",
+    "level": "...",
+    "wallets": [
+      {
+        "currency": "...",
+        "verified": true,
+        "address": "...",
+      }
+    ],
+    "emails": ["..."],
+    "phones": ["..."],
+    "residential_address": "...",
+    "residential_address_country": "...",
+    "residential_address_proof_date_of_expiry": "...iso8601...",
+    "date_of_birth": "...iso8601...",
+    "full_name": "...",
+    "identification_document_country": "...",
+    "identification_document_number": "...",
+    "identification_document_type": "...",
+    "place_of_birth": "...",
+    "identification_document_date_of_issue": "...iso8601...",
+    "identification_document_date_of_expiry": "...iso8601...",
+    "identification_document_front_file": "data:image/jpeg;base85,...content...",
+    "identification_document_back_file": "data:image/jpeg;base85,...content...",
+    "identification_document_selfie_file": "data:image/jpeg;base85,...content...",
+    "residential_address_proof_file": "data:image/jpeg;base85,...content..."
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "...iso8601...",
+    "verificationMethod": "https://fractal.id/keys#...multibase_key...",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "...multibase_signature..."
+  }
+}
