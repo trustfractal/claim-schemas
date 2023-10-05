@@ -7,9 +7,11 @@
   "type": ["VerifiableCredential"],
   "issuer": "FractalID",
   "issuanceDate": "...iso8601...",
+  "level": "...",
+  "status": "...",
+  "approved_at": "...iso8601...",
   "credentialSubject": {
     "id": "uuid:...",
-    "level": "...",
     "wallets": [
       {
         "currency": "...",

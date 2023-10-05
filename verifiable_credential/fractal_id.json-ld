@@ -5,6 +5,8 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "aux": "https://raw.githubusercontent.com/trustfractal/claim-schemas/master/aux.xml",
     "level": "xsd:string",
+    "status": "xsd:string",
+    "approved_at": "xsd:date",
     "emails": "xsd:string",
     "phones": "xsd:string",
     "residential_address": "xsd:string",
