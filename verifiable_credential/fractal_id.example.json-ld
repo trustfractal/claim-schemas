@@ -7,13 +7,15 @@
   "type": ["VerifiableCredential"],
   "issuer": "FractalID",
   "issuanceDate": "...iso8601...",
+  "level": "human|basic|plus",
+  "status": "pending|approved",
+  "approved_at": "...iso8601...",
   "credentialSubject": {
     "id": "uuid:...",
-    "level": "...",
     "wallets": [
       {
         "currency": "...",
-        "verified": true,
+        "verified": true|false,
         "address": "...",
       }
     ],
