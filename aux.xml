@@ -284,4 +284,22 @@
             <xs:enumeration value="drivers_license" />
         </xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="residential_address_proof_category" name="residential_address_proof_category">
+        <xs:annotation>
+            <xs:documentation>
+                Residential address proof category.
+
+                See https://docs.developer.fractal.id/user-integration/user-information-retrieval#identification-related-fields
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="delivery_receipt" />
+            <xs:enumeration value="official_documents" />
+            <xs:enumeration value="official_correspondence" />
+            <xs:enumeration value="utility_bill" />
+            <xs:enumeration value="invalid" />
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
