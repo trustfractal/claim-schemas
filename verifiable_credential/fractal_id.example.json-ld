@@ -19,7 +19,12 @@
         "address": "...",
       }
     ],
-    "emails": ["..."],
+    "emails": [
+      {
+        "address": "...",
+        "verified": true|false,
+      }
+    ],
     "phones": ["..."],
     "residential_address": "...",
     "residential_address_country": "...",
